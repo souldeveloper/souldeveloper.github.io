@@ -4,3 +4,10 @@
 .rojo{
     color: chocolate;
 }
+.link{
+    color: chocolate;
+    text-decoration: none;
+}
+.seccion{
+    padding-left: 15px;
+}
