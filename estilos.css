@@ -19,3 +19,7 @@
   height: 90vh;
   overflow-y: scroll;
 }
+i {
+  text-decoration: underline;
+  color: tomato;
+}
