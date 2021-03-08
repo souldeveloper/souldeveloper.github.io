@@ -1,9 +1,6 @@
 * {
   font-family: "Roboto", sans-serif;
 }
-.rojo {
-  color: chocolate;
-}
 .link {
   color: chocolate;
   text-decoration: none;
@@ -18,8 +15,4 @@
 .content {
   height: 90vh;
   overflow-y: scroll;
-}
-i {
-  text-decoration: underline;
-  color: tomato;
 }
