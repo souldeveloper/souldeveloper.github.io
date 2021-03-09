@@ -1,0 +1,25 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.rojo {
+  color: chocolate;
+}
+.link {
+  color: chocolate;
+  text-decoration: none;
+}
+.seccion {
+  padding-left: 15px;
+}
+.video {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.content {
+  height: 90vh;
+  overflow-y: scroll;
+}
+i {
+  text-decoration: underline;
+  color: tomato;
+}
