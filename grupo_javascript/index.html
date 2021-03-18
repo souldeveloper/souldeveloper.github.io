@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAVASCRIPT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../main.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand disable" href="index.html"><img src="https://yt3.ggpht.com/ytc/AAUvwniHeNvUbV6ejNRe4_J-7r_VLLfJxD4cwoAJDtgr4_c=s900-c-k-c0x00ffffff-no-rj" alt=""></a>
+        <a class="navbar-brand disable light fw-100" href="index.html">Codificandolo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Items on the right -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="../">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="bootcamp.html">Bootcamp</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav me-end mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="colaboradores.html">Colaboradores</a>
+            </li>
+            <li class="nav-item">
+              <!-- Item vacio para hacer espacio -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://www.youtube.com/channel/UCsbDM9y4RJeDy_2DKc0aPaw/join" target="_blank">Apoya el proyecto</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <section class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-3">
+                <h4 class="text-center">INDICE</h4>
+                <hr>
+                <ul class="list-group">
+                    <li class="list-group-item"><a class="links1" href="#Inicio">Introducción</a></li>
+                    <li class="list-group-item"><a class="links1" href="#02">Inlcuir javascript</a></li>
+                    <li class="list-group-item"><a class="links1" href="#03">Variables</a></li>
+                    <li class="list-group-item"><a class="links1" href="#04">Constantes</a></li>
+                    <li class="list-group-item"><a class="links1" href="#05">Datos primitivos</a></li>
+                    <li class="list-group-item"><a class="links1" href="#06">Tipado dinámico</a></li>
+                    <li class="list-group-item"><a class="links1" href="#07">Objetos</a></li>
+                    <li class="list-group-item"><a class="links1" href="#08">Arrays</a></li>
+                    <li class="list-group-item"><a class="links1" href="#09">Funciones</a></li>
+                    <li class="list-group-item"><a class="links1" href="#10">Devolución funciones</a></li>
+                    <li class="list-group-item"><a class="links1" href="#11">Operadores aritméticos</a></li>
+                    <li class="list-group-item"><a class="links1" href="#12">Operadores asignación</a></li>
+                    <li class="list-group-item"><a class="links1" href="#13">Operadores igualdad</a></li>
+                    <li class="list-group-item"><a class="links1" href="#14">Operador ternario</a></li>
+                    <li class="list-group-item"><a class="links1" href="#15">Operadores lógicos</a></li>
+                    <li class="list-group-item"><a class="links1" href="#16">Preferencia</a></li>
+                    <li class="list-group-item"><a class="links1" href="#17">Sentencia IF</a></li>
+                    <li class="list-group-item"><a class="links1" href="#18">Sentencia SWITCH</a></li>
+                    <li class="list-group-item"><a class="links1" href="#19">Sentencia FOR</a></li>
+                    <li class="list-group-item"><a class="links1" href="#20">Sentencia WHILE</a></li>
+                    <li class="list-group-item"><a class="links1" href="#21">Sentencia DO WHILE</a></li>
+                    
+                </ul>
+            </div>
+            <div class="col-9 content ">
+                <h4 class="text-center seccion">CONTENIDO</h4>
+                <hr>
+                <div class="video mt-2">
+                    <section id='Inicio' align="center">
+                        <h2>INICIO DE JAVASCRIPT</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/R_nc6R5yeVg"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="mt-3">Introducción a JavaScript que es y porque lo necesitamos para programar páginas web.
+                        </p>
+
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='02' align="center">
+                        <h2>Incluir javascript</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/3IxuZYDOc_8"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="mt-3">
+                            En este nuevo vídeo vamos a ver como podemos incluir nuestro codigo de javascript
+                            dentro de nuestros proyectos. Veremos como inlcuirlo tanto en linea como en archivos
+                            separados, siendo esta última una buena práctica de programación.
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='03' align="center">
+                        <h2>Variables</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/WQ5v-uAfNLs"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="mt-3">
+                           Vamos a ver que son y para que se utilizan las variables.
+                           Las Variables no son mas que pequeños espacios en memoria donde guardaremos la información necesaria
+                           para su posterior utilización.
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='04' align="center">
+                        <h2>Constantes</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/8D0OuF1FWMg"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="mt-3">
+                            A diferencia de las variables las constantes no pueden variar su valor en tiempo de ejecución, por
+                            lo tanto son muy útiles a la hora de definir valores que seran fijos dentro de nuestro codigo.
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='05' align="center">
+                        <h2>Datos primitivos</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/XJjawxUEcgs"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="mt-3">
+                            Estos son los datos mas comunes dentro de cualquier lenguaje de programación como pueden ser
+                            <ul>
+                                <li>String</li>
+                                <li>Number</li>
+                                <li>Boolean</li>
+                                <li>Objetc</li>
+                            </ul>
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='06' align="center">
+                        <h2>Tipado dinámico</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/Je0w4nmJxKU"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="mt-3">
+                            Esta es una carateristica de javascript que hay que conocer, ya que este lenguaje no consta
+                            de un tipado de datos per-se, cada variable puede contener un dato diferente y este en tiempo
+                            de ejecución puede ir variando.
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='07' align="center">
+                        <h2>Objetos</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/LRo_F4elIto"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="mt-3">
+                            Un breve vistazo a este tipo de dato ya que lo veremos mas en profundidad en las siguientes lecciones.
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='08' align="center">
+                        <h2>Arrays</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/3N1vtKPEbB0"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="mt-3">
+                            Estas colecciones de datos son muy comunes y cabe destacar que debemos de conocerlas.
+                            Veremos por encima que son y en posteriores lecciones las veremos mas en profundidad
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='09' align="center">
+                        <h2>Funciones</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/owvPGuNR6XM"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="mt-3">
+                            Porciones de código reutilizables para poder ejecutar diferentes acciones, como en las secciones 
+                            anteriores las veremos por encima y en siguientes lecciones profundizaremos mas en ellas.
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='10' align="center">
+                        <h2>Devolución de las funciones</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/vHIJXfXfEYg"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="mt-3">
+                            Las funciones no solo pueden ejecutar ciertas instrucciones si no que a demas pueden 
+                            devolvernos valores para su posterior procesado por lo que en este video veremos un ejemplo.
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='11' align="center">
+                        <h2>Operadores aritméticos</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/qQvdIeeyZjk"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="mt-3">
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='12' align="center">
+                        <h2>Operadores de Asignación</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/nxQhnRNp_-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="mt-3">En esta nueva sección veremos que es y como podemos subsanar el <strong>overflow</strong>
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='13' align="center">
+                        <h2>Operadores de igualdad</h2>
+                        <iframe class="mt-3"  width="560" height="315" src="https://www.youtube.com/embed/u_aG_TGPVFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                       
+                         <p class="mt-3"> </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='14' align="center">
+                        <h2>Operador ternario</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/Rq2ujCliN0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="mt-3"> </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='15' align="center">
+                        <h2>Operadores lógicos</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/wU2eiYmuOIQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
+                        <p class="mt-3"> </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='16' align="center">
+                        <h2>Preferencia en operaciones</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/SCqlxQWBxv4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
+                        <p class="mt-3"> </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='17' align="center">
+                        <h2>Sentencia IF</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/q_kGCdIzQWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
+                        <p class="mt-3"> </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='18' align="center">
+                        <h2>Sentencia SWITCH</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/-0hvAP3hvQk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
+                        <p class="mt-3"> </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='19' align="center">
+                        <h2>Sentencia FOR</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/fPhe4u7vyLI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
+                        <p class="mt-3"> </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='20' align="center">
+                        <h2>Sentencia WHILE</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/CHldM_tNlVA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
+                        <p class="mt-3"> </p>
+                    </section>
+                </div>
+                <hr>
+                <div class="video mt-2">
+                    <section id='21' align="center">
+                        <h2>Sentencia DO WHILE</h2>
+                        <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/HDmq7ioX8o8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        
+                        <p class="mt-3"></p>
+                    </section>
+                </div>
+
+            </div>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <hr class="featurette-divider m-5">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-lg-2 g-1 g-lg-1">
+        <div class="col">
+          <div class="p-1 bg-light">
+            <ul id="menu">
+              <li>
+                <p>
+                  <a href="https://www.youtube.com/c/ManuelMuñozMir/" target="_blank" class="links">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="https://www.facebook.com/groups/codificandolo" target="_blank" class="links">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+
+            <p class="copy_rg">
+              · Codificandolo &copy; ·
+            </p>
+  
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+  </footer>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+
+</body>
+
+</html>
